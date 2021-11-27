@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 59px;
+    a{
+        margin-right: 69px;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+        &:active{
+            color: red;
+        }
+    }
+}

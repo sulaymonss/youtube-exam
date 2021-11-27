@@ -1,0 +1,58 @@
+.sidebar{
+    width: fit-content;
+    padding-right: 66px;
+    &__item{
+        margin-bottom: 29px;
+        a{
+            display: flex;
+            align-items: center;
+            color: #898989;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        svg{
+            margin-right: 13px;
+        }
+    }
+    .subs{
+        margin-bottom: 60px;
+    }
+    &__moreBtn{
+        display: flex;
+        align-items: center;
+        color: #898989;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    &__subs{
+        margin-top: 58px;
+        &-title{
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+    &__channel a{
+        display: flex;
+        align-content: center;
+        margin-bottom: 23px;
+    }
+    &__ownerImg{
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+    }
+    &__channel-owner{
+        font-size: 16px;
+        line-height: 20px;
+        color: #898989;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+}
+
+.active{
+    color: red !important;
+}

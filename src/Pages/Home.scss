@@ -1,0 +1,21 @@
+.home{
+    &__channel{
+        margin-bottom: 40px;
+        &-top a{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        &-ownerImg{
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+    &__owner{
+        font-size: 26px;
+        line-height: 33px;
+        color: #19202C;
+    }
+}

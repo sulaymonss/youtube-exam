@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./Assets/fonts/mulish-v7-latin-regular.woff2") format("woff2"),
+    url("./Assets/fonts/mulish-v7-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./Assets/fonts/mulish-v7-latin-700.woff2") format("woff2"),
+    url("./Assets/fonts/mulish-v7-latin-700.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish";
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+}
+
+.container{
+    max-width: 1820px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.routes{
+    width: 85%;
+}
